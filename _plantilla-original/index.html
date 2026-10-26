@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del Negocio | Mueblería Premium – Producto y Servicio</title>
+    <meta name="description" content="Descripción de ejemplo para plantilla. Especialistas en productos de alta calidad. Más de 200 modelos disponibles.">
+    <meta name="keywords" content="plantilla, muebles, productos, ejemplo">
+    <meta name="author" content="Mi Negocio">
+    <meta property="og:title" content="Nombre del Negocio | Mueblería Premium">
+    <meta property="og:description" content="Transforma tu hogar con los mejores productos.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#97bea9">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" role="status" aria-label="Cargando">
+    <div class="loader-inner">
+        <img src="img/logo.png" alt="Mi Negocio" class="loader-logo">
+        <div class="loader-spinner"></div>
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<header id="navbar">
+    <div class="nav-wrap">
+        <a href="#hero" class="nav-brand" aria-label="Inicio">
+            <img src="img/logo.png" alt="Mi Negocio" class="nav-logo-img">
+            <span class="nav-logo-text">MI <em>NE</em>GOCIO</span>
+        </a>
+        <nav class="nav-links" aria-label="Principal">
+            <a href="#colecciones">Catálogo</a>
+            <a href="#especialidades">Especialidades</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#testimonios">Reseñas</a>
+        </nav>
+        <div class="nav-actions">
+            <a href="https://wa.me/520000000000" target="_blank" rel="noopener" class="btn-nav-wa">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                WhatsApp
+            </a>
+            <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="btn-nav-primary">Ver Catálogo</a>
+        </div>
+        <button class="nav-burger" id="nav-burger" aria-label="Menú" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div id="nav-mobile" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+    <div class="nm-header">
+        <img src="img/logo.png" alt="Mi Negocio" class="nm-logo">
+        <button id="nav-close" aria-label="Cerrar menú">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+    </div>
+    <nav class="nm-nav">
+        <a href="#colecciones" class="nm-link">
+            <span class="nm-num">01</span>
+            <span class="nm-text">Catálogo</span>
+            <svg class="nm-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#especialidades" class="nm-link">
+            <span class="nm-num">02</span>
+            <span class="nm-text">Especialidades</span>
+            <svg class="nm-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#proceso" class="nm-link">
+            <span class="nm-num">03</span>
+            <span class="nm-text">Proceso</span>
+            <svg class="nm-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#testimonios" class="nm-link">
+            <span class="nm-num">04</span>
+            <span class="nm-text">Reseñas</span>
+            <svg class="nm-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contacto" class="nm-link">
+            <span class="nm-num">05</span>
+            <span class="nm-text">Contacto</span>
+            <svg class="nm-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+    </nav>
+    <div class="nm-footer">
+        <a href="https://wa.me/520000000000" target="_blank" rel="noopener" class="nm-wa-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Escríbenos por WhatsApp
+        </a>
+        <div class="nm-social">
+            <a href="https://www.instagram.com/salas.online.tehuacan" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a href="https://www.facebook.com/share/1BHe1Nc6b6/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+            <a href="https://www.tiktok.com/@salasonline3" target="_blank" rel="noopener" aria-label="TikTok">TK</a>
+        </div>
+    </div>
+</div>
+
+<main>
+
+<!-- ═══════ HERO ═══════ -->
+<section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-wrap">
+        <div class="hero-content">
+            <div class="h-anim" style="--d:.3s">
+                <span class="hero-badge"><span class="badge-dot"></span>Los mejores productos en tu ciudad</span>
+            </div>
+            <h1 class="hero-title h-anim" style="--d:.55s">
+                Productos &amp; Servicios<br>que <span class="hero-red">Transforman</span><br>tu Espacio.
+            </h1>
+            <p class="hero-sub h-anim" style="--d:.8s">
+                Gran variedad de modelos disponibles. Modernos y contemporáneos. Encuentra el producto perfecto con la mejor calidad y precio.
+            </p>
+            <div class="hero-ctas h-anim" style="--d:1.0s">
+                <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="btn-primary">
+                    Explorar Catálogo
+                    <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+                <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="btn-secondary">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                    Ver Catálogo WA
+                </a>
+            </div>
+            <div class="hero-stats h-anim" style="--d:1.25s">
+                <div class="hs"><strong>5<span>+</span></strong><small>Años</small></div>
+                <div class="hs-sep"></div>
+                <div class="hs"><strong>1,000<span>+</span></strong><small>Clientes</small></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ MARQUEE ═══════ -->
+<div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+        <span>Gran Variedad</span><span class="mdot"></span>
+        <span>Envío sin costo</span><span class="mdot"></span>
+        <span>Sistema de apartado</span><span class="mdot"></span>
+        <span>Garantía Incluida</span><span class="mdot"></span>
+        <span>Ciudad, Estado</span><span class="mdot"></span>
+        <span>Asesoría Personalizada</span><span class="mdot"></span>
+        <span>Calidad garantizada</span><span class="mdot"></span>
+        <span>Gran Variedad</span><span class="mdot"></span>
+        <span>Envío sin costo</span><span class="mdot"></span>
+        <span>Sistema de apartado</span><span class="mdot"></span>
+        <span>Garantía Incluida</span><span class="mdot"></span>
+        <span>Ciudad, Estado</span><span class="mdot"></span>
+        <span>Asesoría Personalizada</span><span class="mdot"></span>
+        <span>Calidad garantizada</span><span class="mdot"></span>
+    </div>
+</div>
+
+<!-- ═══════ ESPECIALIDADES ═══════ -->
+<section id="especialidades" class="s-dark">
+    <div class="s-wrap">
+        <div class="s-head reveal">
+            <span class="s-label">Nuestra Especialidad</span>
+            <h2 class="s-title s-title-light">Diseñados para Cada<br>Necesidad de tu Vida</h2>
+            <p class="s-sub s-sub-light">Nos especializamos en dos categorías que transforman los espacios más importantes.</p>
+        </div>
+        <div class="espec-grid">
+            <article class="espec-card reveal" style="--delay:.1s">
+                <span class="espec-num">01</span>
+                <div class="espec-icon">
+                    <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M4 20h24M6 20V14a2 2 0 012-2h16a2 2 0 012 2v6M2 24h28M8 14V10a2 2 0 012-2h12a2 2 0 012 2v4"/></svg>
+                </div>
+                <h3>Categoría A</h3>
+                <p>Gran variedad en modelos disponibles. Diseños que combinan confort con estética contemporánea para crear el centro de tu hogar.</p>
+                <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="espec-link">Ver catálogo de Categoría A <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+            </article>
+            <article class="espec-card reveal" style="--delay:.25s">
+                <span class="espec-num">02</span>
+                <div class="espec-icon">
+                    <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><rect x="4" y="14" width="24" height="4" rx="1"/><path d="M8 18v6M24 18v6M6 14V10M26 14V10"/><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="24" cy="8" r="2"/></svg>
+                </div>
+                <h3>Categoría B</h3>
+                <p>Gran variedad para diferentes capacidades. Comodidad al mejor precio para tu familia.</p>
+                <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="espec-link">Ver catálogo de Categoría B <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ COLECCIONES ═══════ -->
+<section id="colecciones" class="s-gray">
+    <div class="s-wrap">
+        <div class="cols-header">
+            <div class="reveal">
+                <span class="s-label">Colecciones 2026</span>
+                <h2 class="s-title">Revisa Nuestras<br>Categorías</h2>
+            </div>
+            <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="btn-outline-dark reveal">Ver catálogo completo →</a>
+        </div>
+        <div class="cols-grid">
+
+            <!-- Salas 3-2-1 -->
+            <article class="col-card reveal" style="--delay:.05s">
+                <div class="col-img">
+                    <span class="col-tag">Tipo A</span>
+                    <img src="img/WhatsApp%20Image%202026-06-19%20at%202.37.42%20PM%20(5).jpeg" alt="Salas 3-2-1">
+                </div>
+                <div class="col-info">
+                    <h3>Modelo A</h3>
+                    <p>Juegos completos en múltiples colores y telas.</p>
+                    <div class="col-foot">
+                        <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" style="font-size:.85rem;font-weight:600;color:inherit;text-decoration:none;display:flex;align-items:center;gap:6px;">Ver catálogo de Modelo A <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Salas esquineras -->
+            <article class="col-card reveal" style="--delay:.15s">
+                <div class="col-img">
+                    <span class="col-tag">Tipo A</span>
+                    <img src="img/WhatsApp%20Image%202026-06-19%20at%202.37.42%20PM%20(3).jpeg" alt="Salas esquineras">
+                </div>
+                <div class="col-info">
+                    <h3>Modelo B</h3>
+                    <p>Diseños en L para aprovechar cada rincón. Con accesorios incluidos.</p>
+                    <div class="col-foot">
+                        <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" style="font-size:.85rem;font-weight:600;color:inherit;text-decoration:none;display:flex;align-items:center;gap:6px;">Ver catálogo de Modelo B <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Sofá cama -->
+            <article class="col-card reveal" style="--delay:.25s">
+                <div class="col-img">
+                    <span class="col-tag">Tipo A</span>
+                    <img src="img/WhatsApp%20Image%202026-06-19%20at%203.30.57%20PM%20(1).jpeg" alt="Sofá cama">
+                </div>
+                <div class="col-info">
+                    <h3>Modelo C</h3>
+                    <p>Con función múltiple. Ideal para aprovechar el espacio.</p>
+                    <div class="col-foot">
+                        <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" style="font-size:.85rem;font-weight:600;color:inherit;text-decoration:none;display:flex;align-items:center;gap:6px;">Ver catálogo de Modelo C <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Sillones infantiles -->
+            <article class="col-card reveal" style="--delay:.10s">
+                <div class="col-img">
+                    <span class="col-tag">Tipo B</span>
+                    <img src="img/infantiles.jpeg" alt="Sillones infantiles">
+                </div>
+                <div class="col-info">
+                    <h3>Modelo D</h3>
+                    <p>Diseñados para los más pequeños. Seguros, cómodos y en varios colores.</p>
+                    <div class="col-foot">
+                        <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" style="font-size:.85rem;font-weight:600;color:inherit;text-decoration:none;display:flex;align-items:center;gap:6px;">Ver catálogo de Modelo D <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Comedores -->
+            <article class="col-card reveal" style="--delay:.20s">
+                <div class="col-img">
+                    <span class="col-tag">Tipo C</span>
+                    <img src="img/WhatsApp%20Image%202026-06-19%20at%202.37.42%20PM.jpeg" alt="Comedores">
+                </div>
+                <div class="col-info">
+                    <h3>Modelo E</h3>
+                    <p>Diferentes capacidades en estilos modernos y clásicos.</p>
+                    <div class="col-foot">
+                        <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" style="font-size:.85rem;font-weight:600;color:inherit;text-decoration:none;display:flex;align-items:center;gap:6px;">Ver catálogo de Modelo E <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mesas de centro -->
+            <article class="col-card reveal" style="--delay:.30s">
+                <div class="col-img">
+                    <span class="col-tag">Tipo D</span>
+                    <img src="img/mesa.jpeg" alt="Mesas de centro">
+                </div>
+                <div class="col-info">
+                    <h3>Modelo F</h3>
+                    <p>Complementa tu espacio con diseños elegantes en diferentes acabados.</p>
+                    <div class="col-foot">
+                        <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" style="font-size:.85rem;font-weight:600;color:inherit;text-decoration:none;display:flex;align-items:center;gap:6px;">Ver catálogo de Modelo F <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M5 10h10M11 6l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ PROCESO ═══════ -->
+<section id="proceso" class="s-white">
+    <div class="s-wrap">
+        <div class="s-head s-head-center reveal">
+            <span class="s-label s-label-center">Así de Fácil</span>
+            <h2 class="s-title">Tu Producto Nuevo en<br>Cuatro Pasos</h2>
+            <p class="s-sub s-sub-center">Sin complicaciones ni demoras. Adquirir tu producto es una experiencia placentera.</p>
+        </div>
+        <div class="process-grid">
+            <div class="process-step reveal" style="--delay:.05s">
+                <div class="step-num"><span>01</span></div>
+                <h3>Elige tu Modelo</h3>
+                <p>Explora nuestro catálogo. Muchas opciones en todos los estilos.</p>
+            </div>
+            <div class="process-step reveal" style="--delay:.15s">
+                <div class="step-num"><span>02</span></div>
+                <h3>Cotiza sin Costo</h3>
+                <p>Contáctanos. Precios transparentes, sin letra pequeña.</p>
+            </div>
+            <div class="process-step reveal" style="--delay:.25s">
+                <div class="step-num"><span>03</span></div>
+                <h3>Confirma tu Pedido</h3>
+                <p>Confirmamos disponibilidad y coordinamos la fecha de entrega.</p>
+            </div>
+            <div class="process-step reveal" style="--delay:.35s">
+                <div class="step-num step-num-red"><span>04</span></div>
+                <h3>¡Recíbelo donde Quieras!</h3>
+                <p>Entrega cuidadosa. Garantía incluida en todos los pedidos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ BENEFICIOS ═══════ -->
+<section id="beneficios" class="s-gray">
+    <div class="s-wrap">
+        <div class="s-head reveal">
+            <span class="s-label">¿Por Qué Elegirnos?</span>
+            <h2 class="s-title">La Diferencia<br>que se Nota</h2>
+        </div>
+        <div class="benefits-grid">
+            <div class="ben-card reveal" style="--delay:.05s"><div class="ben-icon">🛋️</div><h3>Gran Variedad</h3><p>Gran variedad de modelos. Modernos, contemporáneos y minimalistas.</p></div>
+            <div class="ben-card reveal" style="--delay:.12s"><div class="ben-icon">⭐</div><h3>Calidad Comprobada</h3><p>Lorem ipsum materiales de alta durabilidad seleccionados para durar.</p></div>
+            <div class="ben-card reveal" style="--delay:.19s"><div class="ben-icon">💰</div><h3>Precio Justo</h3><p>Lorem ipsum accedemos directo a fabricantes para ofrecerte el mejor precio.</p></div>
+            <div class="ben-card reveal" style="--delay:.26s"><div class="ben-icon">🤝</div><h3>Asesoría Personal</h3><p>Lorem ipsum te ayudamos a elegir el modelo ideal para tu espacio.</p></div>
+            <div class="ben-card reveal" style="--delay:.33s"><div class="ben-icon">📍</div><h3>Presencia Local</h3><p>Estamos en tu ciudad. Te conocemos y sabemos lo que necesitas.</p></div>
+            <div class="ben-card reveal" style="--delay:.40s"><div class="ben-icon">🚚</div><h3>Entrega Coordinada</h3><p>Lorem ipsum coordinamos fecha y hora a tu conveniencia.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ ESTADÍSTICAS ═══════ -->
+<section id="estadisticas" class="s-red">
+    <div class="s-wrap">
+        <div class="stats-grid">
+            <div class="stat-item reveal" style="--delay:.05s">
+                <div class="stat-val"><strong class="counter" data-target="5">0</strong><span>+</span></div>
+                <p>Años de experiencia</p>
+            </div>
+            <div class="stat-item reveal" style="--delay:.25s">
+                <div class="stat-val"><strong class="counter" data-target="1000">0</strong><span>+</span></div>
+                <p>Clientes satisfechos</p>
+            </div>
+            <div class="stat-item reveal" style="--delay:.35s">
+                <div class="stat-val"><strong class="counter" data-target="100">0</strong><span>%</span></div>
+                <p>Satisfacción garantizada</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ TESTIMONIOS ═══════ -->
+<section id="testimonios" class="s-white">
+    <div class="s-wrap">
+        <div class="s-head s-head-center reveal">
+            <span class="s-label s-label-center">Lo Que Dicen</span>
+            <h2 class="s-title">Clientes que ya<br>Transformaron su Espacio</h2>
+        </div>
+        <div class="testi-grid">
+            <article class="testi-card reveal" style="--delay:.05s">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. La calidad es excelente y llegó en perfectas condiciones. El trato fue muy amable."</blockquote>
+                <div class="testi-author">
+                    <div class="testi-av" style="background:#97bea9">A</div>
+                    <div><strong>Nombre Apellido</strong><span>Ciudad, Estado</span></div>
+                </div>
+            </article>
+            <article class="testi-card reveal" style="--delay:.12s">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Lorem ipsum dolor sit amet consectetur. El producto superó mis expectativas en calidad y precio. Me ayudaron a elegir el modelo ideal. Muy recomendados."</blockquote>
+                <div class="testi-author">
+                    <div class="testi-av" style="background:#c8c696">R</div>
+                    <div><strong>Nombre Apellido</strong><span>Ciudad, Estado</span></div>
+                </div>
+            </article>
+            <article class="testi-card reveal" style="--delay:.19s">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Lorem ipsum ya recomendé este negocio. Tienen variedad, precios accesibles y te tratan muy bien."</blockquote>
+                <div class="testi-author">
+                    <div class="testi-av" style="background:#7aaa94">C</div>
+                    <div><strong>Nombre Apellido</strong><span>Ciudad, Estado</span></div>
+                </div>
+            </article>
+            <article class="testi-card reveal" style="--delay:.26s">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Lorem ipsum dolor sit amet. La entrega fue puntual y el servicio de primera. Sin duda volvería a comprar."</blockquote>
+                <div class="testi-author">
+                    <div class="testi-av" style="background:#ffcdb8">M</div>
+                    <div><strong>Nombre Apellido</strong><span>Ciudad, Estado</span></div>
+                </div>
+            </article>
+            <article class="testi-card reveal" style="--delay:.33s">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Lorem ipsum excelente experiencia. Los productos llegaron bien empacados. 100% recomendado."</blockquote>
+                <div class="testi-author">
+                    <div class="testi-av" style="background:#97bea9">P</div>
+                    <div><strong>Nombre Apellido</strong><span>Ciudad, Estado</span></div>
+                </div>
+            </article>
+            <article class="testi-card reveal" style="--delay:.40s">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Lorem ipsum me sorprendió la calidad. La atención fue personalizada y me ayudaron a elegir perfectamente."</blockquote>
+                <div class="testi-author">
+                    <div class="testi-av" style="background:#c8c696">J</div>
+                    <div><strong>Nombre Apellido</strong><span>Ciudad, Estado</span></div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ CTA ═══════ -->
+<section id="cta" class="s-dark">
+    <div class="s-wrap">
+        <div class="cta-inner reveal">
+            <span class="s-label s-label-white">¿Listo para Empezar?</span>
+            <h2 class="s-title s-title-light">Tu Producto Perfecto Está<br>a un Mensaje de Distancia</h2>
+            <p class="s-sub s-sub-light">Contáctanos y recibe atención personalizada. Te ayudamos a encontrar el producto ideal sin ningún compromiso.</p>
+            <div class="cta-btns">
+                <a href="https://wa.me/520000000000?text=Hola%2C%20me%20gustar%C3%ADa%20ver%20el%20cat%C3%A1logo" target="_blank" rel="noopener" class="btn-wa-big">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                    Chatear por WhatsApp
+                </a>
+                <a href="https://wa.me/c/520000000000" target="_blank" rel="noopener" class="btn-cat-ghost">Ver Catálogo Completo →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════ CONTACTO ═══════ -->
+<section id="contacto" class="s-gray">
+    <div class="s-wrap">
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <span class="s-label">Contáctanos</span>
+                <h2 class="s-title">¿Tienes Alguna<br>Pregunta?</h2>
+                <p class="s-sub">Nuestro equipo está listo para ayudarte. Escríbenos y te respondemos a la brevedad.</p>
+                <div class="contact-items">
+                    <div class="contact-item"><div class="ci-icon">📱</div><div><strong>WhatsApp</strong><span>+52 000 000 0000</span></div></div>
+                    <div class="contact-item"><div class="ci-icon">📍</div><div><strong>Ubicación</strong><span>Ciudad, Estado — Sucursal Principal</span></div></div>
+                    <div class="contact-item"><div class="ci-icon">🕐</div><div><strong>Horario</strong><span>Lun–Sáb · 10:30am–3:00pm y 5:00pm–8:00pm<br>Dom · 12:00pm–4:00pm</span></div></div>
+                </div>
+                <div class="contact-map" style="margin:20px 0;border-radius:12px;overflow:hidden;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7569.250110735432!2d-97.4061281064209!3d18.455325500000022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bd5b84d382ef%3A0xef75ca0212f2781a!2sSalas%20%22ONLINE%22!5e0!3m2!1sen!2sus!4v1782182154196!5m2!1sen!2sus" width="100%" height="240" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="social-row">
+                    <a href="https://www.instagram.com/salas.online.tehuacan" target="_blank" rel="noopener" class="soc-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/share/1BHe1Nc6b6/" target="_blank" rel="noopener" class="soc-btn" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@salasonline3" target="_blank" rel="noopener" class="soc-btn" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form-wrap reveal" style="--delay:.2s">
+                <div class="contact-form">
+                    <h3>Solicita tu Cotización</h3>
+                    <p>Llena el formulario y te contactamos en minutos.</p>
+                    <form id="wa-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" required placeholder="Ej. Nombre Apellido" autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono (opcional)</label>
+                                <input type="tel" id="phone" placeholder="Ej. 000 000 0000" autocomplete="tel">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">¿En qué estás interesado?</label>
+                            <select id="interest" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="Categoría A">Categoría A</option>
+                                <option value="Categoría B">Categoría B</option>
+                                <option value="Combo completo">Combo completo</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Cuéntanos más (opcional)</label>
+                            <textarea id="message" placeholder="Ej. Busco un producto específico..." rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-form-submit">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="footer-wrap">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="img/logo.png" alt="Mi Negocio" class="footer-logo-img">
+                <p>Tienda especializada en productos de alta calidad. Tu satisfacción es nuestra pasión desde hace más de 5 años.</p>
+                <div class="footer-soc">
+                    <a href="https://www.instagram.com/salas.online.tehuacan" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+                    <a href="https://www.facebook.com/share/1BHe1Nc6b6/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+                    <a href="https://www.tiktok.com/@salasonline3" target="_blank" rel="noopener" aria-label="TikTok">TK</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Productos</h4>
+                <ul>
+                    <li><a href="#colecciones">Categoría A</a></li>
+                    <li><a href="#colecciones">Categoría B</a></li>
+                    <li><a href="https://wa.me/c/520000000000" target="_blank" rel="noopener">Catálogo Completo</a></li>
+                    <li><a href="#colecciones">Nuevos Modelos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#beneficios">¿Por qué Elegirnos?</a></li>
+                    <li><a href="#proceso">Proceso de Compra</a></li>
+                    <li><a href="#testimonios">Reseñas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="https://wa.me/520000000000" target="_blank" rel="noopener">WhatsApp Directo</a></li>
+                    <li><a href="https://wa.me/c/520000000000" target="_blank" rel="noopener">Catálogo WA</a></li>
+                    <li><a href="https://www.instagram.com/salas.online.tehuacan" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/share/1BHe1Nc6b6/" target="_blank" rel="noopener">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Mi Negocio · Todos los derechos reservados.</p>
+            <p>Ciudad, Estado · País</p>
+        </div>
+    </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/520000000000" target="_blank" rel="noopener" class="wa-float" aria-label="Contactar por WhatsApp">
+    <span class="wa-tip">¡Escríbenos!</span>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

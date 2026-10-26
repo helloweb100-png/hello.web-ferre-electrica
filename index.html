@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <script>
+        /* Marca JS activo y, si app.js no llegara a cargar, libera la página a los 9 s */
+        (function (d) {
+            var h = d.documentElement;
+            h.classList.replace('no-js', 'js');
+            setTimeout(function () { if (!h.classList.contains('is-ready')) h.classList.add('is-ready', 'loader-failsafe'); }, 9000);
+        })(document);
+    </script>
+
+    <!-- ═════════ SEO ═════════ -->
+    <title>Ferre-Eléctrica Acuña | Ferretería y Material Eléctrico</title>
+    <meta name="description" content="Ferretería y material eléctrico con calidad, confianza y soluciones. Cable, iluminación LED, herramienta y plomería. Cotiza tu obra por WhatsApp.">
+    <meta name="keywords" content="ferretería, material eléctrico, ferre-eléctrica, cable eléctrico, centros de carga, iluminación LED, herramienta, plomería, tornillería, cotizar por WhatsApp">
+    <meta name="author" content="Ferre-Eléctrica Acuña">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <!-- EDITAR: reemplazar tudominio.com por el dominio real antes de publicar -->
+    <link rel="canonical" href="https://www.tudominio.com/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="Ferre-Eléctrica Acuña">
+    <meta property="og:title" content="Ferre-Eléctrica Acuña | Tu obra no se detiene">
+    <meta property="og:description" content="Material eléctrico, herramienta y ferretería de calidad, con asesoría que resuelve a la primera.">
+    <meta property="og:url" content="https://www.tudominio.com/">
+    <meta property="og:image" content="https://www.tudominio.com/logo-og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="Letrero luminoso naranja de Ferre-Eléctrica Acuña: Calidad, Confianza, Soluciones">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ferre-Eléctrica Acuña | Tu obra no se detiene">
+    <meta name="twitter:description" content="Material eléctrico, herramienta y ferretería de calidad, con asesoría que resuelve a la primera.">
+    <meta name="twitter:image" content="https://www.tudominio.com/logo-og.jpg">
+
+    <meta name="theme-color" content="#0c0c0d">
+    <meta name="color-scheme" content="dark">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='50 220 430 505'%3E%3Cpath fill='%23ff7a0a' d='M357 287 L467 335 L467 645 L235 647 L145 715 L385 432 L285 432Z'/%3E%3Cpath fill='%23676867' d='M65 347 L260 243 L305 264 L360 230 L153 493 L238 490 L165 650 L65 652Z'/%3E%3C/svg%3E">
+
+    <!-- Fuentes: Barlow Condensed (rótulo del logo), Geist (texto), Geist Mono (datos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Iconos Phosphor (una sola familia en toda la página) -->
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="logo.webp" type="image/webp" fetchpriority="low">
+
+    <!-- Datos estructurados: negocio local.
+         EDITAR cuando se confirmen: "telephone", "address" y "openingHours" -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HardwareStore",
+        "name": "Ferre-Eléctrica Acuña",
+        "slogan": "Calidad, confianza, soluciones",
+        "description": "Ferretería y material eléctrico: cable, centros de carga, iluminación LED, herramienta, tornillería y plomería, con asesoría y cotización por WhatsApp.",
+        "url": "https://www.tudominio.com/",
+        "image": "https://www.tudominio.com/logo-og.jpg",
+        "knowsAbout": ["Material eléctrico", "Iluminación LED", "Herramienta", "Ferretería general", "Plomería", "Medición y protección"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "¿Cómo puedo cotizar mi material?", "acceptedAnswer": {"@type": "Answer", "text": "Escríbenos por WhatsApp con tu lista, una foto o una descripción de tu obra. Te respondemos con disponibilidad y precio."}},
+            {"@type": "Question", "name": "¿Me ayudan a elegir el material correcto?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Te orientamos sobre calibres, capacidades y compatibilidades. Para instalaciones de gran carga siempre recomendamos que las revise un electricista calificado."}},
+            {"@type": "Question", "name": "¿Cómo sé si tienen un producto en existencia?", "acceptedAnswer": {"@type": "Answer", "text": "Mándanos el nombre, la medida o una foto del producto y lo confirmamos contigo por WhatsApp."}},
+            {"@type": "Question", "name": "¿Atienden a electricistas y contratistas?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Surtimos a profesionales y a quien lo hace por su cuenta, con el mismo trato directo."}},
+            {"@type": "Question", "name": "¿Qué productos manejan?", "acceptedAnswer": {"@type": "Answer", "text": "Material eléctrico, iluminación LED, herramienta, ferretería general, plomería, y equipo de medición y protección. Si no ves lo que buscas, pregúntanos."}},
+            {"@type": "Question", "name": "¿Dónde están y qué horario tienen?", "acceptedAnswer": {"@type": "Answer", "text": "Encuentra la ubicación y el horario en la sección de contacto, o pídenos la dirección por WhatsApp."}}
+        ]
+    }
+    </script>
+</head>
+<body>
+
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<!-- ═════════ SPRITE: símbolo de la marca (casa + rayo), reconstruido del logo ═════════ -->
+<svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+        <linearGradient id="gOrange" x1="0" y1="0" x2="0.35" y2="1">
+            <stop offset="0" stop-color="#ffa433"/>
+            <stop offset="0.55" stop-color="#ff7a0a"/>
+            <stop offset="1" stop-color="#f26200"/>
+        </linearGradient>
+        <linearGradient id="gOrangeSide" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#c9560a"/>
+            <stop offset="1" stop-color="#7d3200"/>
+        </linearGradient>
+        <linearGradient id="gGray" x1="0" y1="0" x2="0.3" y2="1">
+            <stop offset="0" stop-color="#6a6b6a"/>
+            <stop offset="1" stop-color="#454645"/>
+        </linearGradient>
+        <linearGradient id="gGraySide" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#2f302f"/>
+            <stop offset="1" stop-color="#1c1d1c"/>
+        </linearGradient>
+        <symbol id="mark" viewBox="50 220 430 505">
+            <path transform="translate(-8 7)" fill="url(#gGraySide)" d="M65 347 L260 243 L305 264 L360 230 L153 493 L238 490 L165 650 L65 652Z"/>
+            <path fill="url(#gGray)" stroke="#9a9b9a" stroke-opacity=".45" stroke-width="2" stroke-linejoin="round" d="M65 347 L260 243 L305 264 L360 230 L153 493 L238 490 L165 650 L65 652Z"/>
+            <path transform="translate(-8 7)" fill="url(#gOrangeSide)" d="M357 287 L467 335 L467 645 L235 647 L145 715 L385 432 L285 432Z"/>
+            <path fill="url(#gOrange)" stroke="#ffd2a0" stroke-opacity=".55" stroke-width="2" stroke-linejoin="round" d="M357 287 L467 335 L467 645 L235 647 L145 715 L385 432 L285 432Z"/>
+        </symbol>
+    </defs>
+</svg>
+
+<!-- ═════════ PRELOADER ═════════ -->
+<div id="loader" class="loader" role="status" aria-live="polite" aria-label="Cargando Ferre-Eléctrica Acuña">
+    <div class="loader__half loader__half--l"></div>
+    <div class="loader__half loader__half--r"></div>
+    <div class="loader__core">
+        <div class="loader__ring">
+            <svg class="loader__mark" viewBox="50 220 430 505" aria-hidden="true">
+                <defs>
+                    <clipPath id="chargeClip"><rect id="chargeRect" x="40" y="725" width="450" height="0"/></clipPath>
+                </defs>
+                <g opacity=".16"><use href="#mark" x="50" y="220" width="430" height="505"/></g>
+                <g clip-path="url(#chargeClip)"><use href="#mark" x="50" y="220" width="430" height="505"/></g>
+            </svg>
+        </div>
+        <p class="loader__brand">Ferre-Eléctrica <strong>Acuña</strong></p>
+        <div class="loader__meter" aria-hidden="true"><i id="loaderBar"></i></div>
+        <p class="loader__status"><span id="loaderText">Energizando</span> <span class="loader__count"><span id="loaderNum">0</span>%</span></p>
+    </div>
+</div>
+
+<!-- Progreso de lectura -->
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+
+<!-- ═════════ NAVEGACIÓN ═════════ -->
+<header class="nav" id="nav">
+    <div class="nav__bar">
+        <a href="#inicio" class="brand" aria-label="Ferre-Eléctrica Acuña, ir al inicio">
+            <svg class="brand__mark" aria-hidden="true"><use href="#mark"/></svg>
+            <span class="brand__text"><span class="brand__top">Ferre-Eléctrica</span><span class="brand__bottom">Acuña</span></span>
+        </a>
+        <nav class="nav__links" aria-label="Principal">
+            <a href="#productos">Productos</a>
+            <a href="#proceso">Cómo trabajamos</a>
+            <a href="#obras">Tu obra</a>
+            <a href="#porque">Por qué Acuña</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <a class="btn btn--primary btn--sm nav__cta" data-wa data-wa-msg="Hola, quiero hablar con un asesor de Ferre-Eléctrica Acuña." href="https://wa.me/520000000000">
+            <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>WhatsApp</span>
+        </a>
+        <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+            <span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- Menú móvil -->
+<div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__nav" aria-label="Menú móvil">
+        <a href="#productos" class="menu__link"><span>Productos</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        <a href="#proceso" class="menu__link"><span>Cómo trabajamos</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        <a href="#obras" class="menu__link"><span>Tu obra</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        <a href="#porque" class="menu__link"><span>Por qué Acuña</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        <a href="#preguntas" class="menu__link"><span>Preguntas</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        <a href="#contacto" class="menu__link"><span>Contacto</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+    </nav>
+    <div class="menu__foot">
+        <a class="btn btn--primary" data-wa data-wa-msg="Hola, quiero cotizar material para mi obra." href="https://wa.me/520000000000">
+            <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Escríbenos ahora</span>
+        </a>
+        <p>Calidad. Confianza. Soluciones.</p>
+    </div>
+</div>
+
+<!-- Riel de secciones (solo escritorio) -->
+<nav class="rail" id="rail" aria-label="Secciones de la página">
+    <a href="#inicio" data-target="inicio"><span class="rail__label">Inicio</span><i></i></a>
+    <a href="#marca" data-target="marca"><span class="rail__label">Marca</span><i></i></a>
+    <a href="#productos" data-target="productos"><span class="rail__label">Productos</span><i></i></a>
+    <a href="#proceso" data-target="proceso"><span class="rail__label">Cómo trabajamos</span><i></i></a>
+    <a href="#obras" data-target="obras"><span class="rail__label">Tu obra</span><i></i></a>
+    <a href="#porque" data-target="porque"><span class="rail__label">Por qué Acuña</span><i></i></a>
+    <a href="#preguntas" data-target="preguntas"><span class="rail__label">Preguntas</span><i></i></a>
+    <a href="#contacto" data-target="contacto"><span class="rail__label">Contacto</span><i></i></a>
+</nav>
+
+<main id="contenido">
+
+    <!-- ═════════ 1. HERO ═════════ -->
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+        <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+        <div class="hero__veil" aria-hidden="true"></div>
+
+        <div class="hero__stage" id="heroStage" aria-hidden="true">
+            <div class="emblem" id="emblem">
+                <div class="emblem__halo"></div>
+                <svg class="emblem__rings" viewBox="0 0 600 600">
+                    <circle class="ring ring--a" cx="300" cy="300" r="286"/>
+                    <circle class="ring ring--b" cx="300" cy="300" r="244"/>
+                    <circle class="ring ring--c" cx="300" cy="300" r="198"/>
+                    <g class="orbit orbit--a"><circle cx="300" cy="14" r="5"/></g>
+                    <g class="orbit orbit--b"><circle cx="300" cy="56" r="3.5"/></g>
+                    <g class="orbit orbit--c"><circle cx="300" cy="102" r="3"/></g>
+                </svg>
+                <svg class="emblem__mark" viewBox="50 220 430 505">
+                    <use href="#mark" x="50" y="220" width="430" height="505"/>
+                    <path class="flow flow--o" pathLength="1" d="M357 287 L467 335 L467 645 L235 647 L145 715 L385 432 L285 432Z"/>
+                    <path class="flow flow--g" pathLength="1" d="M65 347 L260 243 L305 264 L360 230 L153 493 L238 490 L165 650 L65 652Z"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="hero__inner">
+            <p class="eyebrow hero__eyebrow" data-hero="in">Ferretería y material eléctrico</p>
+            <h1 id="hero-title" class="hero__title">
+                <span class="hl hl--1" data-split>Tu obra no se detiene.</span>
+                <span class="hl hl--2" data-split>Nosotros tampoco.</span>
+            </h1>
+            <p class="hero__sub" data-hero="in">Material eléctrico, herramienta y ferretería de calidad, con asesoría que resuelve a la primera.</p>
+            <div class="hero__ctas" data-hero="in">
+                <a class="btn btn--primary btn--lg" data-wa data-magnetic data-wa-msg="Hola, quiero cotizar el material para mi obra." href="https://wa.me/520000000000">
+                    <span>Quiero cotizar mi obra</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn--ghost btn--lg" href="#productos" data-magnetic>
+                    <span>Explorar productos</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═════════ 2. FRANJA DE SURTIDO (único marquee de la página) ═════════ -->
+    <div class="band" aria-label="Lo que encuentras en Acuña">
+        <div class="band__track" id="bandTrack">
+            <ul class="band__list">
+                <li>Cable y conductores</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Centros de carga</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Pastillas termomagnéticas</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Contactos y apagadores</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Iluminación LED</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Herramienta</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Tornillería</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Candados y cerraduras</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Tubería y conexiones</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+                <li>Equipo de protección</li><li class="band__sep" aria-hidden="true"><i class="ph-fill ph-lightning"></i></li>
+            </ul>
+            <ul class="band__list" aria-hidden="true">
+                <li>Cable y conductores</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Centros de carga</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Pastillas termomagnéticas</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Contactos y apagadores</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Iluminación LED</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Herramienta</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Tornillería</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Candados y cerraduras</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Tubería y conexiones</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+                <li>Equipo de protección</li><li class="band__sep"><i class="ph-fill ph-lightning"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ═════════ 3. LA MARCA SE ABRE (imagen que crece al hacer scroll) ═════════ -->
+    <section id="marca" class="sign" aria-labelledby="sign-title">
+        <div class="sign__pin">
+            <h2 id="sign-title" class="sr-only">Calidad, confianza y soluciones</h2>
+            <div class="sign__words" aria-hidden="true">
+                <span class="sign__word sign__word--a">Calidad</span>
+                <span class="sign__word sign__word--b">Soluciones</span>
+            </div>
+            <div class="sign__frame">
+                <img class="sign__img" src="logo.webp" width="1536" height="1024" loading="lazy" decoding="async"
+                     alt="Letrero luminoso naranja de Ferre-Eléctrica Acuña con el rayo dentro de una casa y el lema Calidad, Confianza, Soluciones">
+                <div class="sign__shade"></div>
+                <div class="sign__vignette"></div>
+            </div>
+            <div class="sign__copy">
+                <p class="sign__lead">Calidad que dura. Confianza que se gana. Soluciones que no te dejan a medias.</p>
+                <a class="btn btn--primary" href="#contacto"><span>Quiero conocer la tienda</span><i class="ph ph-arrow-down-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═════════ 4. MANIFIESTO (las palabras se encienden con el scroll) ═════════ -->
+    <section class="manifesto" aria-label="Nuestra forma de trabajar">
+        <p class="manifesto__text" id="manifesto">Una obra bien hecha empieza con un material que no falla. En Acuña elegimos calidad, te hablamos claro y te ayudamos a resolver. <span class="hot">Sin vueltas, sin letra pequeña, sin dejarte a medias.</span></p>
+    </section>
+
+    <!-- ═════════ 5. PRODUCTOS (pan horizontal en escritorio, carrusel en móvil) ═════════ -->
+    <section id="productos" class="prod" aria-labelledby="prod-title">
+        <div class="prod__pin" id="prodPin">
+            <div class="prod__track" id="prodTrack">
+
+                <div class="prod__intro">
+                    <p class="eyebrow">Catálogo</p>
+                    <h2 id="prod-title" class="h2" data-split>Todo para tu obra, en un solo lugar.</h2>
+                    <p class="lead">Seis líneas de producto y asesoría real en cada una.</p>
+                    <a class="btn btn--primary" data-wa data-magnetic data-wa-msg="Hola, quiero que me compartan su catálogo de productos." href="https://wa.me/520000000000">
+                        <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Pedir el catálogo por WhatsApp</span>
+                    </a>
+                </div>
+
+                <article class="pcard" data-spot>
+                    <div class="pcard__media"><img src="https://images.pexels.com/photos/17072947/pexels-photo-17072947.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" width="900" height="1125" loading="lazy" decoding="async" alt="Cables eléctricos de colores entrelazados sobre fondo oscuro"></div>
+                    <div class="pcard__body">
+                        <h3>Material eléctrico</h3>
+                        <p>Cable, centros de carga, pastillas termomagnéticas, contactos y canalización para instalar con seguridad.</p>
+                        <ul class="chips"><li>Cable</li><li>Centros de carga</li><li>Pastillas</li><li>Contactos</li></ul>
+                        <a class="link-arrow" data-wa data-wa-msg="Hola, quiero cotizar material eléctrico: cable, centros de carga, pastillas o contactos." href="https://wa.me/520000000000">Preguntar por existencia <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+
+                <article class="pcard" data-spot>
+                    <div class="pcard__media"><img src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" width="900" height="1125" loading="lazy" decoding="async" alt="Foco LED de filamento encendido con luz cálida naranja"></div>
+                    <div class="pcard__body">
+                        <h3>Iluminación</h3>
+                        <p>Focos, luminarias, reflectores y tiras LED que iluminan mejor y consumen menos.</p>
+                        <ul class="chips"><li>Focos LED</li><li>Luminarias</li><li>Reflectores</li><li>Tiras LED</li></ul>
+                        <a class="link-arrow" data-wa data-wa-msg="Hola, quiero cotizar iluminación LED." href="https://wa.me/520000000000">Preguntar por existencia <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+
+                <article class="pcard" data-spot>
+                    <div class="pcard__media"><img src="https://images.pexels.com/photos/5357150/pexels-photo-5357150.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" width="900" height="1125" loading="lazy" decoding="async" alt="Pinzas, desarmadores, flexómetro y llave ajustable sobre madera oscura"></div>
+                    <div class="pcard__body">
+                        <h3>Herramienta</h3>
+                        <p>Manual y eléctrica, para quien vive de su oficio y para quien arregla en casa.</p>
+                        <ul class="chips"><li>Taladros</li><li>Pinzas</li><li>Llaves</li><li>Destornilladores</li></ul>
+                        <a class="link-arrow" data-wa data-wa-msg="Hola, quiero cotizar herramienta manual y eléctrica." href="https://wa.me/520000000000">Preguntar por existencia <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+
+                <article class="pcard" data-spot>
+                    <div class="pcard__media"><img src="https://images.pexels.com/photos/8447775/pexels-photo-8447775.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" width="900" height="1125" loading="lazy" decoding="async" alt="Tornillos sobre una superficie de madera"></div>
+                    <div class="pcard__body">
+                        <h3>Ferretería general</h3>
+                        <p>Tornillería, fijación, cerraduras y candados. Lo pequeño que sostiene lo grande.</p>
+                        <ul class="chips"><li>Tornillería</li><li>Fijación</li><li>Cerraduras</li><li>Candados</li></ul>
+                        <a class="link-arrow" data-wa data-wa-msg="Hola, quiero cotizar tornillería, fijación o cerraduras." href="https://wa.me/520000000000">Preguntar por existencia <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+
+                <article class="pcard" data-spot>
+                    <div class="pcard__media"><img src="https://images.pexels.com/photos/28169591/pexels-photo-28169591.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" width="900" height="1125" loading="lazy" decoding="async" alt="Conexiones y coples de cobre alineados"></div>
+                    <div class="pcard__body">
+                        <h3>Plomería</h3>
+                        <p>Tubería, conexiones, llaves y accesorios para que el agua llegue a donde debe.</p>
+                        <ul class="chips"><li>Tubería</li><li>Conexiones</li><li>Llaves</li><li>Accesorios</li></ul>
+                        <a class="link-arrow" data-wa data-wa-msg="Hola, quiero cotizar material de plomería." href="https://wa.me/520000000000">Preguntar por existencia <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+
+                <article class="pcard" data-spot>
+                    <div class="pcard__media"><img src="https://images.pexels.com/photos/33531832/pexels-photo-33531832.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" width="900" height="1125" loading="lazy" decoding="async" alt="Electricista midiendo con un multímetro las terminales de un motor"></div>
+                    <div class="pcard__body">
+                        <h3>Medición y protección</h3>
+                        <p>Multímetros, flexómetros, guantes y cascos para trabajar con precisión y protegido.</p>
+                        <ul class="chips"><li>Multímetros</li><li>Flexómetros</li><li>Guantes</li><li>Cascos</li></ul>
+                        <a class="link-arrow" data-wa data-wa-msg="Hola, quiero cotizar equipo de medición y protección." href="https://wa.me/520000000000">Preguntar por existencia <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+
+            </div>
+            <div class="prod__progress" aria-hidden="true"><i id="prodBar"></i></div>
+        </div>
+    </section>
+
+    <!-- ═════════ 6. CÓMO TRABAJAMOS (tarjetas que se apilan) ═════════ -->
+    <section id="proceso" class="steps" aria-labelledby="steps-title">
+        <div class="container">
+            <div class="steps__head">
+                <h2 id="steps-title" class="h2" data-split>Del mensaje a tu obra, sin vueltas.</h2>
+                <p class="lead" data-reveal>Cuatro movimientos simples. Nosotros hacemos lo pesado.</p>
+            </div>
+            <ol class="steps__list" id="stepsList">
+                <li class="step step--1" style="--i:0">
+                    <div class="step__inner">
+                        <div class="step__main">
+                            <div class="step__icon"><i class="ph ph-chat-circle-text" aria-hidden="true"></i></div>
+                            <h3>Cuéntanos tu obra</h3>
+                            <p>Envía tu lista, una foto o solo la idea. Te escuchamos y aterrizamos lo que necesitas.</p>
+                        </div>
+                        <span class="step__ghost" aria-hidden="true">01</span>
+                    </div>
+                </li>
+                <li class="step step--2" style="--i:1">
+                    <div class="step__inner">
+                        <div class="step__main">
+                            <div class="step__icon"><i class="ph ph-seal-check" aria-hidden="true"></i></div>
+                            <h3>Te asesoramos</h3>
+                            <p>Calibres, capacidades y compatibilidades. Te orientamos para que compres bien a la primera.</p>
+                        </div>
+                        <span class="step__ghost" aria-hidden="true">02</span>
+                    </div>
+                </li>
+                <li class="step step--3" style="--i:2">
+                    <div class="step__inner">
+                        <div class="step__main">
+                            <div class="step__icon"><i class="ph ph-receipt" aria-hidden="true"></i></div>
+                            <h3>Cotizamos claro</h3>
+                            <p>Disponibilidad y precio directo en tu WhatsApp, sin letra pequeña ni vueltas.</p>
+                        </div>
+                        <span class="step__ghost" aria-hidden="true">03</span>
+                    </div>
+                </li>
+                <li class="step step--4" style="--i:3">
+                    <div class="step__inner">
+                        <div class="step__main">
+                            <div class="step__icon"><i class="ph ph-package" aria-hidden="true"></i></div>
+                            <h3>Surtimos y sigues</h3>
+                            <p>Preparamos tu pedido para que lo recojas y sigas avanzando con tu obra.</p>
+                            <a class="btn btn--dark" data-wa data-magnetic data-wa-msg="Hola, estoy listo para armar mi lista de materiales." href="https://wa.me/520000000000">
+                                <span>Estoy listo, armemos mi lista</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <span class="step__ghost" aria-hidden="true">04</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- ═════════ 7. PARA CADA TIPO DE OBRA (acordeón de imágenes) ═════════ -->
+    <section id="obras" class="aud" aria-labelledby="aud-title">
+        <div class="container">
+            <h2 id="aud-title" class="h2" data-split>Sea cual sea tu obra, aquí la surtimos.</h2>
+            <div class="aud__list" id="audList">
+                <article class="aud__item is-active">
+                    <img class="aud__img" src="https://images.pexels.com/photos/5691590/pexels-photo-5691590.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" width="1200" height="800" loading="lazy" decoding="async" alt="Electricista pelando cable con pinzas junto a contactos instalados en la pared">
+                    <div class="aud__shade"></div>
+                    <button class="aud__btn" type="button" aria-expanded="true" aria-controls="aud-p1" id="aud-b1">
+                        <span class="aud__vtitle" aria-hidden="true">Electricistas y contratistas</span>
+                        <span class="aud__title">Electricistas y contratistas</span>
+                        <i class="ph ph-plus aud__plus" aria-hidden="true"></i>
+                    </button>
+                    <div class="aud__panel" id="aud-p1" role="region" aria-labelledby="aud-b1">
+                        <p>Surtido para que tu cuadrilla no pare: cable, pastillas, canalización y todo para terminar a tiempo.</p>
+                    </div>
+                </article>
+                <article class="aud__item">
+                    <img class="aud__img" src="https://images.pexels.com/photos/18861859/pexels-photo-18861859.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" width="1200" height="800" loading="lazy" decoding="async" alt="Herramientas de remodelación sobre mosaicos: flexómetro, mazo, nivel y espátula">
+                    <div class="aud__shade"></div>
+                    <button class="aud__btn" type="button" aria-expanded="false" aria-controls="aud-p2" id="aud-b2">
+                        <span class="aud__vtitle" aria-hidden="true">Hogar y remodelación</span>
+                        <span class="aud__title">Hogar y remodelación</span>
+                        <i class="ph ph-plus aud__plus" aria-hidden="true"></i>
+                    </button>
+                    <div class="aud__panel" id="aud-p2" role="region" aria-labelledby="aud-b2">
+                        <p>Del foco que se fundió a la remodelación completa. Te ayudamos a elegir lo correcto para tu casa.</p>
+                    </div>
+                </article>
+                <article class="aud__item">
+                    <img class="aud__img" src="https://images.pexels.com/photos/16849777/pexels-photo-16849777.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" width="1200" height="800" loading="lazy" decoding="async" alt="Estructura metálica de una construcción de noche">
+                    <div class="aud__shade"></div>
+                    <button class="aud__btn" type="button" aria-expanded="false" aria-controls="aud-p3" id="aud-b3">
+                        <span class="aud__vtitle" aria-hidden="true">Negocio e industria</span>
+                        <span class="aud__title">Negocio e industria</span>
+                        <i class="ph ph-plus aud__plus" aria-hidden="true"></i>
+                    </button>
+                    <div class="aud__panel" id="aud-p3" role="region" aria-labelledby="aud-b3">
+                        <p>Mantenimiento y ampliaciones con material eléctrico y de ferretería para mantener tu operación encendida.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═════════ 8. POR QUÉ ACUÑA (bento) ═════════ -->
+    <section id="porque" class="why" aria-labelledby="why-title">
+        <div class="container">
+            <h2 id="why-title" class="h2" data-split>Por qué Acuña.</h2>
+            <div class="bento">
+                <article class="bcell b-a" data-spot data-reveal>
+                    <img class="bcell__img" src="https://images.pexels.com/photos/13619169/pexels-photo-13619169.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" width="1200" height="800" loading="lazy" decoding="async" alt="Banco de trabajo con martillos y herramientas en un taller">
+                    <div class="bcell__body">
+                        <h3>Calidad que se nota</h3>
+                        <p>Material que cumple y dura, porque una instalación bien hecha se paga una sola vez.</p>
+                    </div>
+                </article>
+                <article class="bcell b-b" data-spot data-reveal>
+                    <div class="bcell__body">
+                        <i class="ph ph-handshake bcell__icon" aria-hidden="true"></i>
+                        <h3>Confianza que se gana</h3>
+                        <p>Te decimos lo que sí necesitas y también lo que no. Hablamos claro, siempre.</p>
+                    </div>
+                </article>
+                <article class="bcell b-c" data-spot data-reveal>
+                    <div class="bcell__body">
+                        <i class="ph ph-puzzle-piece bcell__icon" aria-hidden="true"></i>
+                        <h3>Soluciones</h3>
+                        <p>Cuéntanos el problema. Te ayudamos a encontrar la mejor opción.</p>
+                    </div>
+                </article>
+                <article class="bcell b-d" data-spot data-reveal>
+                    <div class="bcell__body">
+                        <i class="ph ph-lightbulb-filament bcell__icon" aria-hidden="true"></i>
+                        <h3>Asesoría de verdad</h3>
+                        <p>Habla con quien conoce el material. Una pregunta a tiempo evita comprar dos veces.</p>
+                    </div>
+                </article>
+                <article class="bcell b-e" data-spot data-reveal>
+                    <img class="bcell__img" src="https://images.pexels.com/photos/28286038/pexels-photo-28286038.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" width="1400" height="786" loading="lazy" decoding="async" alt="">
+                    <div class="bcell__body">
+                        <i class="ph ph-chats-circle bcell__icon" aria-hidden="true"></i>
+                        <h3>Atención directa</h3>
+                        <p>Sin filas ni vueltas: manda tu lista por WhatsApp y recibe tu cotización.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═════════ 9. NÚMEROS ═════════ -->
+    <!-- EDITAR: el dato de "productos y referencias" es un ejemplo, confirmar la cifra real con el cliente -->
+    <section class="nums" aria-label="Acuña en números">
+        <div class="container nums__row">
+            <div class="num" data-reveal>
+                <p class="num__val"><span data-count="1500" data-plus="true">+1,500</span></p>
+                <p class="num__label">Productos y referencias</p>
+            </div>
+            <div class="num" data-reveal>
+                <p class="num__val"><span data-count="6">6</span></p>
+                <p class="num__label">Líneas de producto</p>
+            </div>
+            <div class="num" data-reveal>
+                <p class="num__val"><span data-count="1">1</span></p>
+                <p class="num__label">Mensaje para cotizar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═════════ 10. PREGUNTAS FRECUENTES ═════════ -->
+    <section id="preguntas" class="faq" aria-labelledby="faq-title">
+        <div class="container faq__grid">
+            <div class="faq__head">
+                <h2 id="faq-title" class="h2" data-split>Resuelve tus dudas antes de venir.</h2>
+                <p class="lead" data-reveal>Lo que más nos preguntan, en pocas palabras.</p>
+            </div>
+            <div class="faq__list" id="faqList">
+                <div class="faq__item">
+                    <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a1" id="faq-q1"><span>¿Cómo puedo cotizar mi material?</span><i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+                    <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1"><div><p>Escríbenos por WhatsApp con tu lista, una foto o una descripción de tu obra. Te respondemos con disponibilidad y precio.</p></div></div>
+                </div>
+                <div class="faq__item">
+                    <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span>¿Me ayudan a elegir el material correcto?</span><i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+                    <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2"><div><p>Sí. Te orientamos sobre calibres, capacidades y compatibilidades. Para instalaciones de gran carga siempre recomendamos que las revise un electricista calificado.</p></div></div>
+                </div>
+                <div class="faq__item">
+                    <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3"><span>¿Cómo sé si tienen un producto en existencia?</span><i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+                    <div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3"><div><p>Mándanos el nombre, la medida o una foto del producto y lo confirmamos contigo por WhatsApp.</p></div></div>
+                </div>
+                <div class="faq__item">
+                    <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4"><span>¿Atienden a electricistas y contratistas?</span><i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+                    <div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4"><div><p>Sí. Surtimos a profesionales y a quien lo hace por su cuenta, con el mismo trato directo.</p></div></div>
+                </div>
+                <div class="faq__item">
+                    <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5"><span>¿Qué productos manejan?</span><i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+                    <div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5"><div><p>Material eléctrico, iluminación LED, herramienta, ferretería general, plomería, y equipo de medición y protección. Si no ves lo que buscas, pregúntanos.</p></div></div>
+                </div>
+                <div class="faq__item">
+                    <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a6" id="faq-q6"><span>¿Dónde están y qué horario tienen?</span><i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+                    <div class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6"><div><p>Encuentra la ubicación y el horario en la sección de contacto, o pídenos la dirección por WhatsApp.</p></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═════════ 11. CONTACTO + CTA FINAL ═════════ -->
+    <section id="contacto" class="contact" aria-labelledby="contact-title">
+        <canvas class="contact__canvas" id="arcCanvas" aria-hidden="true"></canvas>
+        <div class="contact__veil" aria-hidden="true"></div>
+        <div class="container">
+            <div class="contact__top">
+                <p class="eyebrow">Contacto</p>
+                <h2 id="contact-title" class="contact__mega" data-split>Tu obra no espera. Escríbenos y avanza hoy.</h2>
+                <a class="btn btn--primary btn--xl" data-wa data-magnetic data-wa-msg="Hola, quiero resolver mi obra hoy." href="https://wa.me/520000000000">
+                    <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Clic aquí y resuelve tu obra</span>
+                </a>
+            </div>
+
+            <div class="contact__grid">
+                <form class="form" id="waForm" novalidate data-reveal>
+                    <h3 class="form__title">O déjanos tus datos y te escribimos</h3>
+                    <div class="field">
+                        <label for="f-name">Nombre</label>
+                        <input id="f-name" name="nombre" type="text" autocomplete="name" placeholder="Cómo te llamas" required aria-describedby="f-name-err">
+                        <p class="field__err" id="f-name-err" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="f-phone">Teléfono (opcional)</label>
+                        <input id="f-phone" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="Para devolverte la llamada" aria-describedby="f-phone-err">
+                        <p class="field__err" id="f-phone-err" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="f-type">¿Qué necesitas?</label>
+                        <div class="select">
+                            <select id="f-type" name="tipo" required aria-describedby="f-type-err">
+                                <option value="" selected disabled>Elige una opción</option>
+                                <option>Material eléctrico</option>
+                                <option>Iluminación LED</option>
+                                <option>Herramienta</option>
+                                <option>Ferretería general</option>
+                                <option>Plomería</option>
+                                <option>Medición y protección</option>
+                                <option>Material para una obra completa</option>
+                                <option>Otra cosa</option>
+                            </select>
+                            <i class="ph ph-caret-down" aria-hidden="true"></i>
+                        </div>
+                        <p class="field__err" id="f-type-err" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="f-msg">Cuéntanos de tu obra (opcional)</label>
+                        <textarea id="f-msg" name="mensaje" rows="4" placeholder="Medidas, cantidades o pega aquí tu lista de materiales"></textarea>
+                    </div>
+                    <button class="btn btn--primary btn--block" type="submit" id="formSubmit">
+                        <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Enviar mi solicitud</span>
+                    </button>
+                    <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="info">
+                    <article class="info__card" data-spot data-reveal>
+                        <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p><a data-wa data-wa-msg="Hola, quiero información." href="https://wa.me/520000000000" data-cfg="phoneDisplay">+52 000 000 0000</a></p>
+                        </div>
+                    </article>
+                    <article class="info__card" data-spot data-reveal>
+                        <i class="ph ph-map-pin" aria-hidden="true"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p data-cfg="address">Escríbenos y te compartimos la ubicación.</p>
+                            <a class="link-arrow" id="mapsLink" href="https://www.google.com/maps/search/?api=1&amp;query=Ferre-El%C3%A9ctrica%20Acu%C3%B1a" target="_blank" rel="noopener noreferrer">Cómo llegar <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="info__card" data-spot data-reveal>
+                        <i class="ph ph-clock" aria-hidden="true"></i>
+                        <div>
+                            <h3>Horario</h3>
+                            <p data-cfg="hours">Consulta nuestro horario de atención por WhatsApp.</p>
+                        </div>
+                    </article>
+                    <article class="info__card info__card--social" data-spot data-reveal id="socialCard" hidden>
+                        <i class="ph ph-share-network" aria-hidden="true"></i>
+                        <div>
+                            <h3>Síguenos</h3>
+                            <p class="social">
+                                <a href="#" data-social="instagram" aria-label="Instagram" hidden><i class="ph ph-instagram-logo" aria-hidden="true"></i></a>
+                                <a href="#" data-social="facebook" aria-label="Facebook" hidden><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+                                <a href="#" data-social="tiktok" aria-label="TikTok" hidden><i class="ph ph-tiktok-logo" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ═════════ FOOTER ═════════ -->
+<footer class="footer">
+    <div class="container footer__top">
+        <div class="footer__brand">
+            <a href="#inicio" class="brand brand--lg" aria-label="Ferre-Eléctrica Acuña, volver al inicio">
+                <svg class="brand__mark" aria-hidden="true"><use href="#mark"/></svg>
+                <span class="brand__text"><span class="brand__top">Ferre-Eléctrica</span><span class="brand__bottom">Acuña</span></span>
+            </a>
+            <p>Ferretería y material eléctrico con calidad, confianza y soluciones para tu obra.</p>
+        </div>
+        <nav class="footer__col" aria-label="Productos">
+            <h3>Productos</h3>
+            <ul>
+                <li><a href="#productos">Material eléctrico</a></li>
+                <li><a href="#productos">Iluminación</a></li>
+                <li><a href="#productos">Herramienta</a></li>
+                <li><a href="#productos">Ferretería y plomería</a></li>
+            </ul>
+        </nav>
+        <nav class="footer__col" aria-label="Empresa">
+            <h3>Acuña</h3>
+            <ul>
+                <li><a href="#proceso">Cómo trabajamos</a></li>
+                <li><a href="#obras">Tu obra</a></li>
+                <li><a href="#porque">Por qué Acuña</a></li>
+                <li><a href="#preguntas">Preguntas</a></li>
+            </ul>
+        </nav>
+        <nav class="footer__col" aria-label="Contacto">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a data-wa data-wa-msg="Hola, quiero información." href="https://wa.me/520000000000">WhatsApp</a></li>
+                <li><a href="#contacto">Ubicación y horario</a></li>
+                <li><a href="#contacto">Enviar solicitud</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer__mega" aria-hidden="true"><span>Acuña</span></div>
+    <div class="container footer__bottom">
+        <p>© <span data-year>2026</span> Ferre-Eléctrica Acuña. Todos los derechos reservados.</p>
+        <p class="footer__slogan">Calidad. Confianza. Soluciones.</p>
+        <button type="button" class="totop" id="toTop" aria-label="Volver arriba"><i class="ph ph-arrow-up" aria-hidden="true"></i></button>
+    </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="wa-float" id="waFloat" data-wa data-wa-msg="Hola, quiero cotizar material para mi obra." href="https://wa.me/520000000000" aria-label="Escribir por WhatsApp">
+    <span class="wa-float__tip">¿Te ayudamos?</span>
+    <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i>
+</a>
+
+<noscript>
+    <style>.loader{display:none!important}</style>
+</noscript>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
